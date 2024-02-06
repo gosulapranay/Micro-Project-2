@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    letter-spacing: 0.04em;
+}
+
+.navbar {
+    display: flex;
+    background-color: #6F6AF7;
+    color: white;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}
+
+.logo {
+    font-family: 'Delius Unicase', cursive;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.options ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.options ul li {
+    margin-left: 20px;
+}
+
+.options ul li input {
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+}
+
+.options ul li:last-of-type {
+    position: relative;
+}
+
+.options ul li img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    height: 16px;
+}
+
+.hamburger img {
+    height: 22px;
+}
+
+.social {
+    position: sticky;
+    top: 80px;
+    margin-top: 15vh;
+    float: right;
+}
+
+.social img {
+    height: 40px;
+    display: flex;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    margin: 120px auto 60px auto;
+}
+
+.left-banner img {
+    height: 50vh;
+}
+
+.right-banner {
+    background-color: #E5D8FF;
+    padding: 30px;
+    border-radius: 20px;
+    height: 45vh;
+    box-sizing: border-box;
+}
+
+.right-banner p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #6F7373;
+    font-weight: 400;
+}
+
+.tilebox {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto auto 70px auto;
+}
+
+.tile {
+    width: 20%;
+    padding: 10px 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.tile-1 {
+    background: #929DFF;
+}
+
+.tile-2 {
+    background: #734CF2;
+}
+
+.tile-3 {
+    background: #D288FF;
+}
+
+.tile-4 {
+    background: #000000;
+}
+
+.infobox {
+    display: flex;
+    background-color: #483EFF;
+    width: 90vw;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    height: 60vh;
+    margin: 10vh auto;
+}
+
+.left-infobox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.left-infobox button {
+    padding: 15px 35px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 12px;
+    color: white;
+    border-style: solid;
+    font-weight: 700;
+}
+
+.left-infobox button:first-of-type {
+    background: #BCE0F6;
+    color: black;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.right-infobox {
+    box-sizing: border-box;
+    width: 70%;
+    height: 90%;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 20px;
+    padding: 20px 30px;
+    position: relative;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 24px;
+    color: #04285A;
+}
+
+.info {
+    margin-left: 20px;
+    font-weight: 600;
+    color: #04285A;
+}
+
+.info span {
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.button {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+
+.button img {
+    width: 20px;
+    margin-left: 7px;
+}
+
+.helpicon {
+    background-color: white;
+    border-radius: 100%;
+    position: fixed;
+    right: 60px;
+    bottom: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+}
+
+.helpicon img {
+    width: 50px;
+    height: 50px;
+}
